@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Janala || Best English Learning App</title>
+
+    <!-- style Sheet link  -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- fav icon link  -->
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+
+    <!-- font Awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- tailwind+daisy ui link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="space-y-4 mb-48">
+      <nav class="bg-[#badeff42] shadow-sm">
+        <div class="navbar w-11/12 mx-auto">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="-1"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              >
+                <li>
+                  <a class=""
+                    ><i class="fa-solid fa-circle-question"></i> FAQ</a
+                  >
+                </li>
+                <li>
+                  <a class=""><i class="fa-solid fa-book-open"></i> Learn</a>
+                </li>
+                <li>
+                  <a class=""
+                    ><i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    Logout</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <a href="" class="flex items-center gap-1 text-xl font-bold">
+              <span>English</span>
+              <img src="assets/logo.png" alt="" />
+              <span class="font-bangla">জানালা</span>
+            </a>
+          </div>
+          <div class="navbar-end hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 flex gap-3">
+              <li>
+                <a class="btn btn-primary btn-outline"
+                  ><i class="fa-solid fa-circle-question"></i> FAQ</a
+                >
+              </li>
+              <li>
+                <a class="btn btn-primary btn-outline"
+                  ><i class="fa-solid fa-book-open"></i> Learn</a
+                >
+              </li>
+              <li>
+                <a class="btn btn-primary btn-outline"
+                  ><i class="fa-solid fa-arrow-right-from-bracket"></i>
+                  Logout</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section
+        id="banner-section"
+        class="flex items-center justify-between flex-col-reverse md:flex-row w-11/12 mx-auto"
+      >
+        <div class="space-y-2 text-center md:text-left p-6">
+          <h2 class="text-4xl font-bold">
+            <span class="text-info">English </span>is Easy!!
+          </h2>
+          <p class="font-bangla text-xl">
+            আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
+            <br />
+            আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে
+            <br />
+            অন্য একটি Level এ
+          </p>
+          <fieldset>
+            <input
+              type="text"
+              class="input outline-none"
+              placeholder="Enter Your Name"
+            />
+            <br />
+            <br />
+            <input
+              type="password"
+              class="input outline-none"
+              placeholder=".........."
+            />
+            <br />
+            <br />
+            <button class="btn btn-primary">Get Started</button>
+          </fieldset>
+        </div>
+        <div>
+          <img src="assets/hero-student.png" alt="student" />
+        </div>
+      </section>
+    </header>
+    <main class="w-11/12 mx-auto">
+      <section class="text-center space-y-5">
+        <h2 class="text-4xl font-bold">
+          <span class="text-info">Let's </span>Learn Vocabularies
+        </h2>
+        <div
+          id="level-container"
+          class="flex justify-center gap-5 flex-wrap"
+        ></div>
+      </section>
+
+
+<section class="flex justify-center items-center py-10">
+  <div class="join">
+  <div>
+    <label class="input validator join-item">
+      <input id="search-input" type="text" placeholder="Search Vocabularies" required />
+    </label>
+  </div>
+  <button id="search-btn" class="btn btn-primary join-item">search</button>
+</div>
+</section>
+
+      <section id="spinner" class="flex justify-center items-center py-10 hidden">
+        <span class="loading loading-bars loading-xl"></span>
+      </section>
+
+      <section
+        id="word-container"
+        class="bg-gray-100 w-11/12 mx-auto my-10 grid grid-cols-1 md:grid-cols-3 gap-4 p-7 rounded-xl"
+      >
+        <div
+          class="col-span-full text-center rounded py-20 font-bangla space-y-5"
+        >
+          <p class="text-gray-400 text-xl">
+            আপনি এখনো কোন Lesson Select করেন নি
+          </p>
+          <h2 class="text-4xl font-medium">একটি Lesson Select করুন।</h2>
+        </div>
+      </section>
+
+      <!-- Open the modal using ID.showModal() method -->
+      <dialog id="word_modal" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <div id="details-container" class="space-y-4"></div>
+
+          <div class="modal-action">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn btn-primary">Complete Learning</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
